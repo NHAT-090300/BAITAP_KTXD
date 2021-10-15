@@ -124,6 +124,7 @@
             </div>
             <div class="content">
                 <div class="form-group">
+                    <!-- nhom von dau tu -->
                     <div class="form-item">
                         <h3>
                             Nhóm thông số về vốn đầu tư
@@ -133,7 +134,7 @@
                                 <b>1. Tổng vốn đầu tư cố định</b>
                                 <div class="input-item">
                                     <span>chi phí xây dựng khách sạn</span>
-                                    <input type="number" name="CPXayDung" value="50000" >
+                                    <input type="number" name="CPXayDung" value="60000" >
                                     <span>( triệu đồng )</span>
                                 </div>
                             </div>
@@ -146,7 +147,7 @@
                                 </div>
                                 <div class="input-item">
                                     <span>Vốn vay NHTC</span>
-                                    <input type="number" name="VonNganHang" value="15000" >
+                                    <input type="number" name="VonNganHang" value="25000" >
                                     <span>( triệu đồng )</span>
                                 </div>
                             </div>
@@ -154,24 +155,25 @@
                                 <b>3. Thời gian vay vốn</b>
                                 <div class="input-item">
                                     <span>thời gian</span>
-                                    <input type="number" name="ThoiGanVay" value="7" >
+                                    <input type="number" name="ThoiGanVay" value="12" >
                                     <span>( năm )</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- nhom chi phi von -->
                     <div class="form-item">
                         <h3>
                             Nhóm thông số về chi phí vốn
                         </h3>
                         <div class="input-item">
                             <span>Lãi suất tiền gửi ngân hàng</span>
-                            <input type="number" name="LSGui" value="4.5" >
+                            <input type="number" name="LSGui" value="5.6" >
                             <span>( % / năm )</span>
                         </div>
                         <div class="input-item">
                             <span>Lãi suất vay vốn dài hạn</span>
-                            <input type="number" name="LSVayDaiHan" value="7" >
+                            <input type="number" name="LSVayDaiHan" value="8.2" >
                             <span>( % / năm )</span>
                         </div>                        
                         <div class="input-item">
@@ -180,7 +182,7 @@
                             <span>( % / năm )</span>
                         </div>                        
                     </div>
-
+                    <!-- nhom chi phi -->
                     <div class="form-item">
                         <h3>
                             Nhóm thông số về chi phí
@@ -189,12 +191,12 @@
                             <b>1. Chi phí chung</b>
                             <div class="input-item">
                                 <span>Tiền lương</span>
-                                <input type="number" name="luong" value="8" >
+                                <input type="number" name="luong" value="12" >
                                 <span>( triệu đồng/ tháng )</span>
                             </div>
                             <div class="input-item">
                                 <span>Số lao động</span>
-                                <input type="number" name="soLaoDong" value="20" >
+                                <input type="number" name="soLaoDong" value="50" >
                                 <span>( người )</span>
                             </div>  
                             <div class="input-item">
@@ -224,7 +226,7 @@
                             </div>                       
                             <div class="input-item">
                                 <span>Chi phí sửa chữa thường xuyên</span>
-                                <input type="number" name="suaChua" value="3" >
+                                <input type="number" name="suaChua" value="7" >
                                 <span>( % doanh thu / năm )</span>
                             </div>
                             <div class="input-item">
@@ -234,7 +236,7 @@
                             </div>   
                             <div class="input-item">
                                 <span>Chi phí quản lí doanh nghiệp</span>
-                                <input type="number" name="quanLy" value="10" >
+                                <input type="number" name="quanLy" value="12" >
                                 <span>( % doanh thu / năm )</span>
                             </div>  
                         </div>
@@ -245,12 +247,17 @@
                                 <input type="number" name="phongNgu" value="10" >
                                 <span>( % doanh thu / năm )</span>
                             </div>
+                            <div class="input-item">
+                                <span>chi phí kháo hao vật dụng</span>
+                                <input type="number" name="khaoHao" value="10" >
+                                <span>( % doanh thu phòng/ năm )</span>
+                            </div>
                         </div>
                         <div>
                             <b>3. Hoạt động nhà hàng, spa</b>
                             <div class="input-item">
                                 <span>Chi phí nhà hàng, spa</span>
-                                <input type="number" name="hDNhaHang" value="30" >
+                                <input type="number" name="hDNhaHang" value="40" >
                                 <span>( % doanh thu nhà hàng / năm )</span>
                             </div>
                         </div>
@@ -258,12 +265,20 @@
                             <b>4. Chi phí môi giới</b>
                             <div class="input-item">
                                 <span>Chi phí hoa hồng môi giới</span>
-                                <input type="number" name="moiGioi" value="0" >
+                                <input type="number" name="moiGioi" value="3" >
                                 <span>( % doanh thu / năm )</span>
                             </div>
                         </div>
+                        <div>
+                            <b>5. Chi phí dịch vụ blocking online</b>
+                            <div class="input-item">
+                                <span>Chi phí dịch vụ blocking online</span>
+                                <input type="number" name="blocking" value="5" >
+                                <span>( % doanh thu phòng/ năm )</span>
+                            </div>
+                        </div>
                     </div>
-
+                    <!-- nhom ve doah thu -->
                     <div class="form-item">
                         <h3>
                             Nhóm thông số về doanh thu
@@ -271,7 +286,7 @@
                         <div>
                             <div class="input-item">
                                 <span>Số lượng phòng</span>
-                                <input type="number" name="soPhong" value="60">
+                                <input type="number" name="soPhong" value="85">
                                 <span>( phòng )</span>
                             </div>
                         </div>
@@ -279,7 +294,7 @@
                             <b>1. Đơn giá (chưa bao gồm VAT)</b>
                             <div class="input-item">
                                 <span>Giá phòng bình quân</span>
-                                <input type="number" name="giaPhong" value="1.2" >
+                                <input type="number" name="giaPhong" value="0.95" >
                                 <span>( triệu đồng / ngày)</span>
                             </div>
                             <div class="input-item">
@@ -292,12 +307,12 @@
                             <b>2. Doanh thu từ nhà hàng, spa, bar</b>
                             <div class="input-item">
                                 <span>Doanh thu nha hàng</span>
-                                <input type="number" name="nhaHang" value="20" >
+                                <input type="number" name="nhaHang" value="17" >
                                 <span>( % doanh thu phòng / năm )</span>
                             </div>
                             <div class="input-item">
-                                <span>Doanh thu spa + massage</span>
-                                <input type="number" name="spa" value="10" >
+                                <span>Doanh thu spa + massage + tour du lịch</span>
+                                <input type="number" name="spa" value="15" >
                                 <span>(% doanh thu phòng / năm)</span>
                             </div>
                         </div>
@@ -305,27 +320,28 @@
                             <b>3. Công suất hoạt động</b>
                             <div class="input-item">
                                 <span>Năm thứ nhất</span>
-                                <input type="number" name="congSuat1" value="50" >
+                                <input type="number" name="congSuat1" value="40" >
                                 <span> ( % / năm )</span>
                             </div>
                             <div class="input-item">
-                                <span>5 năm sau</span>
-                                <input type="number"  name="congSuat2" value="60" >
+                                <span>7 năm sau</span>
+                                <input type="number"  name="congSuat2" value="70" >
                                 <span>( % / năm )</span>
                             </div>
                             <div class="input-item">
                                 <span>Các năm còn lại</span>
-                                <input type="number"  name="congSuat3" value="80" >
+                                <input type="number"  name="congSuat3" value="50" >
                                 <span>( % / năm )</span>
                             </div>
                         </div>
                     </div>
+                    <!-- ket qua -->
                     <div class="form-item" style="display: block; margin-bottom: 50px;">
                         <h3>Kết quả</h3>
                         <div style="margin: 20px 0 20px 0; width: 100%">
                             <div class="input-item">
                                 <span>số năm cần tính toán</span>
-                                <input type="number" name="soNam" value="10">
+                                <input type="number" name="soNam" value="12">
                                 <span>( năm )</span>
                             </div>
                             <div class="res-btn mt-5 mb-5">
@@ -398,6 +414,7 @@
                                             <th scope="col" style="text-align: center">giá phòng</th>
                                             <th scope="col" style="text-align: center">doanh thu nhà hàng</th>
                                             <th scope="col" style="text-align: center">doanh thu phòng</th>
+                                            <th scope="col" style="text-align: center">doanh thu spa + tour</th>
                                             <th scope="col" style="text-align: center">tổng doanh thu</th>
                                         </tr>
                                     </thead>
@@ -499,6 +516,7 @@
                                     <td class="text-primary" style="text-align: center">${data.DT.giaPhong[i].toFixed(2)}</td>
                                     <td class="text-primary" style="text-align: center">${data.DT.nhaHang[i].toFixed(1)}</td>
                                     <td class="text-primary" style="text-align: center">${data.DT.phong[i].toFixed(1)}</td>
+                                    <td class="text-primary" style="text-align: center">${data.DT.spa[i].toFixed(1)}</td>
                                     <td class="text-primary" style="text-align: center">${data.DT.tongDoanhThu[i].toFixed(1)}</td>
                                 </tr>`;
                 $('.res-table-3').append(element);
@@ -531,13 +549,14 @@
             const congSuat2 = parseFloat($('input[name="congSuat2"]').val());
             const congSuat3 = parseFloat( $('input[name="congSuat3"]').val());
             let tongDoanhThu = 0;
-            let TDTNam = [], DTNam = [], DTNamNhaHang = [];
+            let TDTNam = [], DTNam = [], DTNamNhaHang = [], DTP = [];
             let DT = {
                 congSuat: [],
                 giaPhong: [],
                 nhaHang: [],
                 phong: [],
-                tongDoanhThu: []
+                spa: [],
+                tongDoanhThu: [],
             };
             for (let i = 1; i <= nam; i++) {
                 let doanhThuPhong = 0, congSuat = 0;
@@ -548,20 +567,23 @@
                 } else {
                     x = TDTangGia;
                 }
-                if(i > 1 && i <= 6) congSuat = congSuat2;
-                if(i > 6) congSuat = congSuat3;
+                if(i > 1 && i <= 8) congSuat = congSuat2;
+                if(i > 8) congSuat = congSuat3;
                 giaPhong = giaPhong*(1 + x/100);
-                console.log(giaPhong)
                 doanhThuPhong = soPhong*giaPhong*365*congSuat/100;
                 tongDoanhThu += doanhThuPhong + doanhThuPhong*(DTNhaHang+DTSpa)/100 ;
+                DTP.push(doanhThuPhong)
                 // doanh thu moi nam
                 DTNam.push(doanhThuPhong*(DTNhaHang+DTSpa)/100 + doanhThuPhong);
+                // doanh thu nha hang moi nam
                 DTNamNhaHang.push(doanhThuPhong*DTNhaHang/100);
+                // doanh thu tong tich luy
                 TDTNam.push(tongDoanhThu);
                 // doanh thu thanh phan 
                 DT.congSuat.push(congSuat);
                 DT.giaPhong.push(giaPhong);
                 DT.nhaHang = DTNamNhaHang;
+                DT.spa.push(doanhThuPhong*DTSpa/100);
                 DT.phong.push(doanhThuPhong);
             }
             DT.tongDoanhThu = DTNam;
@@ -570,6 +592,7 @@
                 arrTongDT: TDTNam,
                 arrDT: DTNam,
                 arrDTNH: DTNamNhaHang,
+                arrDTP: DTP,
                 DT
             };
         }
@@ -587,6 +610,8 @@
             const CPPhongNgu = parseFloat($('input[name="phongNgu"]').val());
             const CPNhaHang = parseFloat($('input[name="hDNhaHang"]').val());
             const CPMoiGioi = parseFloat($('input[name="moiGioi"]').val());
+            const CPKhaoHao = parseFloat($('input[name="khaoHao"]').val());
+            const CPBlocking = parseFloat($('input[name="blocking"]').val());
             let tongChiPhi = 0;
             let arrTongCP = [], arrCPNam = [];
             let CP = {
@@ -604,11 +629,10 @@
             }
             for(let i = 1 ; i <= nam; i++) {
                 let chiPhi = 0;
-                if(i > 5) CPQuangCao = 0;
                 i === 1 ? x = 0 : x = TDTangLuong; 
                 luong = luong*(1 + x/100);
                 let cpChung = (CPDaoTao + CPDienNuoc + CPSuaChua + CPQuangCao + CPQuanLy + CPPhongNgu + CPMoiGioi)/100;
-                chiPhi = (1 + CPBHXH/100)*luong*12*soLaoDong + cpChung*data.arrDT[i-1] + CPThueDat + data.arrDTNH[i-1]*CPNhaHang/100;
+                chiPhi = (1 + CPBHXH/100)*luong*12*soLaoDong + cpChung*data.arrDT[i-1] + CPThueDat + data.arrDTNH[i-1]*CPNhaHang/100 + data.arrDTP[i-1]*(CPKhaoHao+CPBlocking)/100;
                 tongChiPhi += chiPhi;
                 // chi phi moi nam
                 arrCPNam.push(parseFloat(chiPhi));
@@ -636,6 +660,7 @@
                 arrDTNam: data.arrDT,
             }
         } 
+        // tinh NPV BCR 
         function ThongSo(doanhThu, chiPhi) {
             const CPXayDung = parseFloat($('input[name="CPXayDung"]').val());
             const VonCaNhan = parseFloat($('input[name="VonCaNhan"]').val());
@@ -659,21 +684,24 @@
                 sumTienRa += chiPhi[i];
             }   
             let s = arrLoiNhuan.reduce((a, b) => a+b);
+            // tính NPV
+            result.NPV = sum - CPXayDung;
+            // tính BCR
+            result.BCR = (sumTienVao/(sumTienRa+CPXayDung));
             if(s > CPXayDung) {
-                // tính NPV
-                result.NPV = sum - CPXayDung;
-                arrLoiNhuan.unshift(-CPXayDung)
                 // tính IRR
+                arrLoiNhuan.unshift(-CPXayDung)
                 result.IRR = IRRCalc(arrLoiNhuan);
-                // tính BCR
-                result.BCR = (sumTienVao/(sumTienRa+CPXayDung));
-                arrLoiNhuan.shift()
+
                 // tính thoi gian thu hoi Von
+                arrLoiNhuan.shift()
                 result.t = ThuHoiVon(CPXayDung, arrLoiNhuan);
                 return result;
             }
-            return 'không thể tính toán'
+            console.log( result );
+            return 'không thể tính toán';
         }
+        // thoi gian thu hoi von
         function ThuHoiVon(CPXayDung, arrLoiNhuan) {
             let sum = 0, i = 0, s = 0;
             let LoiNhuan = arrLoiNhuan.reduce((a, b) => a+b);
@@ -687,6 +715,7 @@
                 }
             }
         }
+        // tinh IRR
         function IRRCalc(CArray) {
             min = 0.0;
             max = 1.0;
